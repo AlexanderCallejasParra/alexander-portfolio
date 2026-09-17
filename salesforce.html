@@ -7,19 +7,15 @@
   <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-  <!-- Barra de navegación -->
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <!-- Botón hamburguesa a la izquierda -->
-      <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <!-- Marca -->
       <a class="navbar-brand" href="index.html">Portafolio</a>
-      <!-- Menú -->
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link active" href="salesforce.html">Salesforce</a></li>
           <li class="nav-item"><a class="nav-link" href="datos.html">Datos</a></li>
           <li class="nav-item"><a class="nav-link" href="visualizaciones.html">Visualizaciones</a></li>
@@ -30,14 +26,25 @@
     </div>
   </nav>
 
-  <!-- Contenido principal -->
+  <!-- Contenido -->
   <div class="container mt-5">
     <h1 class="text-success">Salesforce</h1>
     <p class="lead">Ejemplos de dashboards, reportes y automatizaciones creados en Salesforce.</p>
-    <p>Próximamente incluiré capturas de pantalla y explicaciones de cada caso.</p>
   </div>
 
-  <!-- Bootstrap JS -->
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Portafolio de Alexander. Todos los derechos reservados.</p>
+    <p>
+      <a href="index.html" class="text-decoration-none text-light">Inicio</a> |
+      <a href="salesforce.html" class="text-decoration-none text-light">Salesforce</a> |
+      <a href="datos.html" class="text-decoration-none text-light">Datos</a> |
+      <a href="visualizaciones.html" class="text-decoration-none text-light">Visualizaciones</a> |
+      <a href="kpis.html" class="text-decoration-none text-light">KPIs</a> |
+      <a href="proyectos.html" class="text-decoration-none text-light">Proyectos</a>
+    </p>
+  </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
