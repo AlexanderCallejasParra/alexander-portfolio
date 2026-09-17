@@ -1,0 +1,51 @@
+/* Tipografía general */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa; /* gris claro */
+  color: #333;
+}
+
+/* Encabezados */
+h1 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Navbar personalizada */
+.navbar {
+  background: linear-gradient(90deg, #0d6efd, #6610f2); /* degradado azul-violeta */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.nav-link {
+  color: #ddd !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+
+.nav-link.active {
+  color: #ffc107 !important; /* amarillo para destacar la sección activa */
+  font-weight: 600;
+}
+
+/* Contenedor principal */
+.container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Pie de página opcional */
+footer {
+  background-color: #212529;
+  color: #ccc;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
