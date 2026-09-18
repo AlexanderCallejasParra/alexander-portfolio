@@ -41,7 +41,7 @@ h1 {
   padding-bottom: 40px;
 }
 
-/* Pie de página opcional */
+/* Footer */
 footer {
   background-color: #212529;
   color: #ccc;
@@ -49,6 +49,16 @@ footer {
   padding: 15px;
   margin-top: 40px;
 }
+
+footer a {
+  color: #ccc;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  color: #ffc107;
+}
+
 /* Hero Banner */
 .hero {
   background: url('banner.jpg') no-repeat center center;
@@ -66,4 +76,3 @@ footer {
 .hero p {
   text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
 }
-
