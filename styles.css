@@ -49,3 +49,21 @@ footer {
   padding: 15px;
   margin-top: 40px;
 }
+/* Hero Banner */
+.hero {
+  background: url('banner.jpg') no-repeat center center;
+  background-size: cover;
+  height: 70vh; /* altura del banner */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+
+.hero p {
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+
